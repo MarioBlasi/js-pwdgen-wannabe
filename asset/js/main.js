@@ -7,16 +7,16 @@ alert("dovrebbefunzionare");
 /*-------------------------*/
 
 //Uso il prompt per chiedere il Nome all'utente salvandola in una variabile
-let userName = prompt("inserisci il tuo nome");
+let username = prompt("inserisci il tuo nome");
 //console.log il risultato del prompt
-console.log(userName);
+console.log(username);
 // Inserisco un h1 nell'html
 /*---------NAME-----*/
 
 //Uso il prompt per chiedere il Cognome all'utente salvandola in una variabile
-let surName = prompt("inserisci il tuo cognome");
+let surname = prompt("inserisci il tuo cognome");
 //console.log il risultato del prompt
-console.log(surName);
+console.log(surname);
 // Inserisco un h1 nell'html
 /*---------SURNAME-----*/
 
@@ -27,24 +27,13 @@ console.log(favoritecolor);
 // Inserisco un h1 nell'html
 /*---------FAVORITE_COLOR----*/
 
-//Uso il prompt per chiedere il Nome all'utente salvandola in una variabile
-let userAge = prompt("inserisci la tua etá");
-//console.log il risultato del prompt
-console.log(userAge);
-// Inserisco un h1 nell'html
-/*---------AGE-----*/
-
 //addizioniamo usando il segno +
-let somma = "userName" + "surName" + "favoritecolor" + "userAge";
-console.log(somma);
+let somma = "name" + "surname" + "fcolor" + 23;
+let result = somma;
 
-/* Template literal 
-const userName = "Mario";
-const surName = "Blasi";
-const favoritecolor = "red";
-const userAge = 23;
+//seleziono e salvo in una variabile un elemento della doma con getElementById
+let nameElement = document.getElementById("name");
+console.log(nameElement);
 
-const sentence = `mi chiamo ${username}, ${surname} il mio colore preferito é il ${favoritecolor}${userage}`;
-console.log(sentence);*/
-
-//Stampo a schermo il risultato usando: nomecognomecolorepreferito23
+//assegno all'innerHTML un nuovo valore
+nameElement.innerHTML = ` ${username + surname + favoritecolor + 23}`;
