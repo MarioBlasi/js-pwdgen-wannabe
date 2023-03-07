@@ -6,29 +6,30 @@ alert("dovrebbefunzionare");
 /*-------------------------*/
 
 //Uso il prompt per chiedere il Nome all'utente salvandola in una variabile
-let username - prompt('inserisci il tuo nome');
+let username = prompt("inserisci il tuo nome");
 //console.log il risultato del prompt
-console.log(username)
+console.log("username");
 // Inserisco un h1 nell'html
 /*---------NAME-----*/
 
 //Uso il prompt per chiedere il Cognome all'utente salvandola in una variabile
-let username - prompt('inserisci il tuo cognome');
-
+let surname = prompt("inserisci il tuo cognome");
 //console.log il risultato del prompt
-console.log(surname)
+console.log("surname");
 // Inserisco un h1 nell'html
 /*---------SURNAME-----*/
 
 //Uso il prompt per chiedere il Colore preferito all'utente salvandola in una variabile
-let username - prompt('inserisci il tuo colore prefetito');
+let favoritecolor = prompt("inserisci il tuo colore prefetito");
 //console.log il risultato del prompt
-let username - prompt('favorite_color');
+console.log("favoritecolor");
 // Inserisco un h1 nell'html
 /*---------FAVORITE_COLOR----*/
 
-//Seleziono e salvo in una variabiletutti l'elemento "name" della dom con getElementById
-let nameElement - document-getElementById('name')
+//creo variabile con addizzione
+
+//Seleziono e salvo in una variabile l'elemento "name" della dom con getElementById
+let nameElement = document.getElementById("name");
 //Assegno all'innerHTML un nuovo valore
 
 //Addiziono tutti e tre gli elementi
